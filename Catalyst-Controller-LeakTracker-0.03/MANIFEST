@@ -14,4 +14,3 @@ t/00-load.t
 t/01-basic.t
 t/lib/Catalyst/Controller/LeakTracker/Test.pm
 t/lib/Catalyst/Controller/LeakTracker/Test/Controller/Root.pm
-META.yml                                 Module meta-data (added by MakeMaker)
