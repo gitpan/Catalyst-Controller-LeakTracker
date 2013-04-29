@@ -5,7 +5,7 @@ use parent qw(Catalyst::Controller);
 
 use Moose;
 
-our $VERSION = "0.07";
+our $VERSION = "0.08";
 
 use Data::Dumper ();
 use Devel::Cycle ();
@@ -466,7 +466,7 @@ Artificially leak some objects, to make sure everything is working properly
 
 =head1 CAVEATS
 
-In forking environments each child will have it's own leak tracking. To avoid
+In forking environments each child will have its own leak tracking. To avoid
 confusion run your apps under the development server or temporarily configure
 fastcgi or whatever to only use one child process.
 
@@ -551,7 +551,7 @@ to your application.
 
 =head1 SEE ALSO
 
-L<Devel::Events>, L<Catalyst::Plugin::Leaktracker>,
+L<Devel::Events>, L<Catalyst::Plugin::LeakTracker>,
 L<http://blog.jrock.us/articles/Plugging%20a%20leaky%20whale.pod>,
 L<Devel::Size>, L<Devel::Cycle>
 
@@ -567,7 +567,7 @@ Wallace Reis <wreis@cpan.org>
 
 =head1 COPYRIGHT & LICENSE
 
-	Copyright (c) 2007 Yuval Kogman. All rights reserved
+	Copyright (c) Yuval Kogman. All rights reserved
 	This program is free software; you can redistribute it and/or modify it
 	under the terms of the MIT license or the same terms as Perl itself.
 
